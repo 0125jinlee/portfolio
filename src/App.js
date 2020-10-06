@@ -1,12 +1,12 @@
 import React from 'react';
+
+import Home from "../src/pages/Home/Home";
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <div className="Home">
-        <h1>JIN WON LEE</h1>
-      </div>
+      <Home />
     </div>
   );
 }
