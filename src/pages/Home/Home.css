@@ -1,6 +1,38 @@
 .Home {
-  display: flex;
-  flex-direction: column;
-  width: 500px;
-  height: 400px;
+  position: flex;
+}
+
+.Title {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+}
+
+.EnglishTitle {
+  font-size: 70px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.KoreanTitle {
+  margin-top: 10px;
+  padding-bottom: 25px;
+  font-size: 60px;
+}
+
+.ProfilePicture {
+  position: absolute;
+  top: 5%;
+  left:60%;
+}
+
+.jin {
+  width: 350px;
+  height: 450px;
 }

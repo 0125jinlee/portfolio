@@ -1,8 +1,7 @@
 .App {
-  min-width: 1200px;
-  min-height: 720px;
+  min-width: 1000px;
+  min-height: 700px;
   background-image: url("/background.jpg");
   background-position: center;
-  vertical-align: center;
-  align-items: center;
+  background-size: cover;
 }
