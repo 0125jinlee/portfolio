@@ -9,37 +9,19 @@ const Home = () => {
         <h1 className="EnglishTitle">HELLO, I AM JIN WON LEE.</h1>
         <h1 className="KoreanTitle">안녕하세요, 저는 이진원 입니다.</h1>
       </div>
+      <div className="JinPicture">
+        <img src="/jin.jpeg" alt="Jin Won Lee" />
+      </div>
       <div className="SocialMedia">
-        <button
-          type="button"
-          target="_blank"
-          onClick={(e) => {
-            e.preventDefault();
-            window.location.href = "https://www.instagram.com/jin.won.lee/";
-          }}
-        >
-          <img src="/instagram.png" width="60px" alt="Jin's Instagram" />
-        </button>
-        <button
-          type="button"
-          target="_blank"
-          onClick={(e) => {
-            e.preventDefault();
-            window.location.href =
-              "https://www.linkedin.com/in/jin-won-lee-94731439/";
-          }}
-        >
-          <img src="/linkedin.png" width="60px" alt="Jin's LinkedIn" />
-        </button>
-        <button
-          target="_blank"
-          onClick={(e) => {
-            e.preventDefault();
-            window.location.href = "https://github.com/0125jinlee";
-          }}
-        >
-          <img src="/github.png" width="60px" alt="Jin's GitHub" />
-        </button>
+        <a href = {"https://www.instagram.com/jin.won.lee/"} target = {"_blank"} rel = {"noopener noreferrer"}>
+          <img src="/instagram.png" alt="Jin's Instagram" />
+        </a>
+        <a href = {"https://www.linkedin.com/in/jin-won-lee-94731439/"} target = {"_blank"} rel = {"noopener noreferrer"}>
+          <img src="/linkedin.png" alt="Jin's LinkedIn" />
+        </a>
+        <a href = {"https://github.com/0125jinlee"} target = {"_blank"} rel = {"noopener noreferrer"}>
+          <img src="/github.png" alt="Jin's GitHub" />
+        </a>
       </div>
     </div>
   );
