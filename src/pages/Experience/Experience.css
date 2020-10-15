@@ -1,0 +1,22 @@
+.Title {
+  position: relative;
+  left: 50%;
+}
+
+.EnglishTitle {
+  font-size: 55px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.EnglishTitle:hover {
+  text-shadow: 1px 1px gray;
+}
+
+.Experience {
+  font-size: 12px;
+}

@@ -1,13 +1,23 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="Home">
+    <span>
       <div className="Title">
-        <h1 className="EnglishTitle">HELLO, I AM JIN WON LEE.</h1>
-        <h1 className="KoreanTitle">안녕하세요, 저는 이진원 입니다.</h1>
+        <NavLink className="EnglishTitle" to={"/"}>
+          HELLO, I AM JIN WON LEE.
+        </NavLink>
+      </div>
+      <div className="Navigation">
+        <NavLink to={"/About"}>
+          About
+        </NavLink>
+        <NavLink to={"/Experience"}>
+          Experience
+        </NavLink>
       </div>
       <div className="JinPicture">
         <img src="/jin.jpeg" alt="Jin Won Lee" />
@@ -23,7 +33,7 @@ const Home = () => {
           <img src="/github.png" alt="Jin's GitHub" />
         </a>
       </div>
-    </div>
+    </span>
   );
 };
 
