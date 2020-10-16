@@ -3,7 +3,7 @@
   left: 50%;
 }
 
-.EnglishTitle {
+.Title a {
   font-size: 55px;
   font-weight: lighter;
   text-decoration: none;
@@ -13,7 +13,7 @@
   text-align: center;
 }
 
-.EnglishTitle:hover {
+.Title a:hover {
   text-shadow: 1px 1px gray;
 }
 

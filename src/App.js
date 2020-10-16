@@ -1,20 +1,30 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { Route, Switch, Redirect, withRouter } from "react-router-dom";
 
 import Home from "../src/pages/Home/Home";
-import Experience from "../src/pages/Experience/Experience";
-import About from "../src/pages/About/About";
 import "./App.css";
 
-const App = (props) => {
+const About = React.lazy(() => {
+  return import("./pages/About/About");
+})
+
+const Experience = React.lazy(() => {
+  return import("./pages/Experience/Experience");
+})
+
+const App = props => {
+  let routes = (
+    <Switch>
+      <Route path="/Experience" render={props => <Experience {...props} />} />
+      <Route path="/About" render={props => <About {...props} />} />
+      <Route path="/" render={props => <Home {...props} />} />
+      <Redirect to="/" />
+    </Switch>
+  )
+
   return (
     <div className="App">
-      <Switch>
-        <Route path="/" render={props => <Home />} />
-        <Route path="/About" render={props => <About />} />
-        <Route path="/Experience" render={props => <Experience />} />
-        <Redirect to="/" />
-      </Switch>
+      <Suspense fallback={<p>Loading...</p>}>{routes}</Suspense>
     </div>
   );
 };

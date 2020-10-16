@@ -6,19 +6,19 @@ import "./Home.css";
 const Home = () => {
   return (
     <span>
-      <div className="Title">
-        <NavLink className="EnglishTitle" to={"/"}>
+      <nav className="Title">
+        <NavLink to={"/"} exact={"true"}>
           HELLO, I AM JIN WON LEE.
         </NavLink>
-      </div>
-      <div className="Navigation">
-        <NavLink to={"/About"}>
+      </nav>
+      <nav className="Navigation">
+        <NavLink to={"/About"} exact={"true"}>
           About
         </NavLink>
-        <NavLink to={"/Experience"}>
+        <NavLink to={"/Experience"} exact={"true"}>
           Experience
         </NavLink>
-      </div>
+      </nav>
       <div className="JinPicture">
         <img src="/jin.jpeg" alt="Jin Won Lee" />
       </div>
