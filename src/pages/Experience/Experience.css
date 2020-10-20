@@ -1,9 +1,14 @@
+.Experience {
+  width: 680px;
+  height: 600px;
+}
+
 .Title {
   position: relative;
   left: 50%;
 }
 
-.EnglishTitle {
+.Title a {
   font-size: 55px;
   font-weight: lighter;
   text-decoration: none;
@@ -13,10 +18,35 @@
   text-align: center;
 }
 
-.EnglishTitle:hover {
+.Title a:hover {
   text-shadow: 1px 1px gray;
 }
 
-.Experience {
-  font-size: 12px;
+.Navigation {
+  position: relative;
+  left: 50%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-right: 0px;
+  width: 100%;
+  min-height: 50px;
+  text-align: center;
+}
+
+.Navigation a {
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-flex;
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+.Navigation a:hover {
+  text-shadow: 1px 1px gray;
+}
+.WorkExperience {
+  position: relative;
+  left: 50%;
+  margin-top: 30px;
 }
