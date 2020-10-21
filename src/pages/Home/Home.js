@@ -5,20 +5,20 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <span>
-      <nav className="Title">
+    <div className="Home">
+      <div className="Title">
         <NavLink to={"/"} exact={"true"}>
           HELLO, I AM JIN WON LEE.
         </NavLink>
-      </nav>
-      <nav className="Navigation">
+      </div>
+      <div className="Navigation">
         <NavLink to={"/About"} exact={"true"}>
           About
         </NavLink>
-        <NavLink to={"/Experience"} exact={"true"}>
-          Experience
+        <NavLink to={"/Projects"} exact={"true"}>
+          Projects
         </NavLink>
-      </nav>
+      </div>
       <div className="JinPicture">
         <img src="/jin.jpeg" alt="Jin Won Lee" />
       </div>
@@ -33,7 +33,7 @@ const Home = () => {
           <img src="/github.png" alt="Jin's GitHub" />
         </a>
       </div>
-    </span>
+    </div>
   );
 };
 

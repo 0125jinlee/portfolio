@@ -15,14 +15,23 @@ const About = () => {
         <NavLink to={"/About"} exact={true}>
           About
         </NavLink>
-        <NavLink to={"/Experience"} exact={true}>
-          Experience
+        <NavLink to={"/Projects"} exact={true}>
+          Projects
         </NavLink>
       </div>
       <div className="Story">
-         I received my Bachelor of Science in Mathematics/Economics major from University of California, Los Angeles recently. My higher education journey took longer than the other usual students. Whenever I did not have enough money for the tuition, I took a break as I was not eligible for any financial aid or loans. Although I was not pleasant with this situation, I grew and reinforced soft skills from working for 15 different jobs.<br />
-         I pushed myself to work in as many fields as possible because I learned many lessons from each of those challenges and those lessons added up to shape who I am right now. When I  was working as an assistant chef at Japanese restaurant, I never knew that this experience would train me to be a detail-oriented person. When I was working as a data analyst at H Mart, I did not know that the experience with Excel would be an eye-opener for a beauty of automation and later change the direction of my career path to the world of coding.<br />
-         I learned that each individual's worth is strictly calculated based on how many skills one has on the belt. Now, I work as an interpreter to strengthen my communication skill as I think it is the skill that I need to work on the most. Also, I have been studying coding and working on the projects for my portfolio using React framework with HTML, CSS and JavaScript to increase my worth in the job market.<br />
+        <p>
+        My higher education journey took longer than most of the other students. Whenever I was not able to come up with enough money for the tuition, I had to take a break to work full-time as I was not eligible for any financial aid or loans. This situation made me working at 15 different jobs while completing a Bachelor’s degree in mathematics/economics major at UCLA. Although I was not pleased with my situation at that time, I am now thankful that having experience working in various fields grew me and taught valuable skills.
+        </p>
+        <p>
+        I intentionally pushed myself to work in as many fields as possible because I always learned many lessons from each of the new fields that I challenged myself to work at, and the experiences piled up to shaped the better version of me. For instance, when I was working as an assistant chef at a Japanese restaurant, I never knew that this experience would teach me the importance of the details. When I was working as a data analyst at H Mart, I did not know that the advanced Excel experience would explode my interest in an automation program which later changed the direction of my career path to coding.
+        </p>
+        <p>
+        My ideas for the career evolved as I experienced more technical jobs. I have realized that each person’s worth is strictly calculated based on how many skills one has. Since then, I have been focusing on improving my weak skills and adding more new skills to my tool belt. I currently work as an interpreter to strengthen my communication skill, and I have been studying HTML, CSS, JavaScript, and Python on my own. Also, I have been working on React projects under the supervision of my brother who is a senior front-end developer at Coinbase to have hands-on experiences.
+        </p>
+        <p>
+        My previous life choices show that I am a fit candidate who is not afraid to face new challenges, who do not give up, and who enjoys advancing skills via self-inspiration. Still, I know that I possess many weaknesses as I have many strengths. I understand the importance of staying humble so that I can always be ready to learn from others. I have a lot of room to grow. I also have a will to maximize growth potential. If the opportunity is given, I am confident that I can bring many values to your company and have a positive influence on colleagues.
+        </p>
       </div>
     </div>
   )
