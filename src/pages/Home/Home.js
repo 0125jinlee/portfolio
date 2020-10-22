@@ -1,24 +1,12 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
+import Navigation from "../../components/Navigation/Navigation";
 import "./Home.css";
 
 const Home = () => {
   return (
     <div className="Home">
-      <div className="Title">
-        <NavLink to={"/"} exact={"true"}>
-          HELLO, I AM JIN WON LEE.
-        </NavLink>
-      </div>
-      <div className="Navigation">
-        <NavLink to={"/About"} exact={"true"}>
-          About
-        </NavLink>
-        <NavLink to={"/Projects"} exact={"true"}>
-          Projects
-        </NavLink>
-      </div>
+      <Navigation />
       <div className="JinPicture">
         <img src="/jin.jpeg" alt="Jin Won Lee" />
       </div>

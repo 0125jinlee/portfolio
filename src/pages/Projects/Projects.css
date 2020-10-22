@@ -3,53 +3,19 @@
   height: 600px;
 }
 
-.Title {
-  margin-top: 15px;
-  width: 100%;
-  text-align: center;
-}
-
-.Title a {
-  font-size: 55px;
-  text-decoration: none;
-  color: black;
-}
-
-.Title a:hover {
-  text-shadow: 3px 3px gray;
-}
-
-.Navigation {
-  margin: 15px 0px;
-  text-align: center;
-}
-
-.Navigation a {
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: 45px;
-  text-align: center;
-  text-decoration: none;
-  color: black;
-}
-
-.Navigation a:hover {
-  text-shadow: 2.5px 2.5px gray;
-}
-
-.List {
+.BetterWorld {
   margin-top: 15px;
   height: 500px;
   overflow-y: scroll;
   text-align: center;
 }
 
-.List a {
+.BetterWorld a {
   text-decoration: none;
   color: black;
 }
 
-.List h3 {
+.BetterWorld h3 {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 25px;
@@ -57,16 +23,16 @@
   text-align: left;
 }
 
-.List h3:hover {
+.BetterWorld h3:hover {
   text-shadow: 1.5px 1.5px gray;
 }
 
-.List li {
+.BetterWorld li {
   margin: 7px 0px;
   text-align: left;
 }
 
-.List img {
+.BetterWorld img {
   margin-top: 15px;
   width: 620px;
   height: 270px;
@@ -77,22 +43,9 @@
     width: 355px;
   }
 
-  .Title a {
-    font-size: 45px;
-  }
-
-  .Navigation a {
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 35px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-  }
-
-  .List img {
+  .BetterWorld img {
     margin-top: 15px;
     width: 355px;
-    height: 170px;
+    height: 190px;
   }
 }

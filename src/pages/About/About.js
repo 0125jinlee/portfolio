@@ -1,24 +1,12 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
 
+import Navigation from "../../components/Navigation/Navigation";
 import "./About.css";
 
 const About = () => {
   return (
     <div className="About">
-      <div className="Title">
-        <NavLink to={"/"} exact={true}>
-          HELLO, I AM JIN WON LEE.
-        </NavLink>
-      </div>
-      <div className="Navigation">
-        <NavLink to={"/About"} exact={true}>
-          About
-        </NavLink>
-        <NavLink to={"/Projects"} exact={true}>
-          Projects
-        </NavLink>
-      </div>
+      <Navigation />
       <div className="Story">
         <p>
         My higher education journey took longer than most of the other students. Whenever I was not able to come up with enough money for the tuition, I had to take a break to work full-time as I was not eligible for any financial aid or loans. This situation made me working at 15 different jobs while completing a Bachelor’s degree in mathematics/economics major at UCLA. Although I was not pleased with my situation at that time, I am now thankful that having experience working in various fields grew me and taught valuable skills.
