@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React from "react";
 import { Route, Switch, Redirect, withRouter } from "react-router-dom";
 
 import Home from "../src/pages/Home/Home";
@@ -18,7 +18,7 @@ const App = props => {
 
   return (
     <div className="App">
-      <Suspense fallback={<h1>Loading...</h1>}>{routes}</Suspense>
+      {routes}
     </div>
   );
 };
