@@ -1,16 +1,16 @@
 .About {
   width: 680px;
-  height: 700px;
+  height: auto;
 }
 
 .Story {
-  margin-top: 15px;
   height: 500px;
-  font-size: 19px;
+  font-size: 18px;
+  overflow-y: scroll;
 }
 
 @media (max-width: 375px) {
   .About {
-    width: 355px;
+    width: 350px;
   }
 }
