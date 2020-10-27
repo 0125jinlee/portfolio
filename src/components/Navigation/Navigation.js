@@ -9,7 +9,7 @@ const Navigation = () => {
     <div className="Navigation">
       <div className="Title">
         <MediaQuery query="(min-device-width: 376px)">
-          <NavLink to={"/"} exact={true}>HELLO, I AM JIN WON LEE. </NavLink>
+          <NavLink to={"/"} exact={true}>HELLO, I AM <span className="Name">JIN WON LEE.</span></NavLink>
         </MediaQuery>
         <MediaQuery query="(max-device-width: 375px)">
           <NavLink to={"/"} exact={true}>HELLO,<br/>I AM<br />JIN WON LEE.</NavLink>
@@ -17,9 +17,11 @@ const Navigation = () => {
       </div>
       <div className="Pages">
         <NavLink to={"/About"} exact={true}>
+          <img src="/square.png" alt="square" />
           About
         </NavLink>
         <NavLink to={"/Projects"} exact={true}>
+          <img src="/square.png" alt="square" />
           Projects
         </NavLink>
       </div>

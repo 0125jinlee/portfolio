@@ -1,30 +1,30 @@
 .Projects {
-  width: 680px;
+  width: 700px;
   height: auto;
 }
 
 .BetterWorld {
   margin-top: 20px;
   overflow-y: scroll;
-  text-align: center;
 }
 
 .BetterWorld a {
-  text-decoration: none;
-  color: white;
-  text-shadow: 2px 2px 2px black;
-}
-
-.BetterWorld h3 {
-  margin: 0px 5px;
-  font-size: 30px;
-  font-weight: bold;
   text-align: left;
+  font-size: 30px;
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
 }
 
-.BetterWorld h3:hover {
-  color: black;
-  text-shadow: none;
+.BetterWorld a img {
+  margin-right: 10px;
+  margin-bottom: 2px;
+  width: 15px;
+  height: 15px;
+}
+
+.BetterWorld a:hover img {
+  box-shadow: 3px 3px 3px gray;
 }
 
 .BetterWorld li {
@@ -32,10 +32,32 @@
   text-align: left;
 }
 
-.BetterWorld img {
+.BetterWorldSlides {
   margin-top: 15px;
-  width: 630px;
-  height: 280px;
+}
+
+.BetterWorldSlides img {
+  width: 700px;
+  height: 320px;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  margin-top: 160px;
+  border: none;
+  background: none;
+  width: 30px;
+  height: 50px;
+}
+
+.prev {
+  margin-left: 10px;
+}
+
+.next {
+  margin-left: 650px;
 }
 
 @media (max-width: 375px) {

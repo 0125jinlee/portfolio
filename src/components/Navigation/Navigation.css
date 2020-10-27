@@ -1,19 +1,17 @@
 .Title {
   margin-top: 10px;
   width: 100%;
+  text-align: center;
 }
 
 .Title a {
   font-size: 55px;
-  font-weight: bold;
   text-decoration: none;
-  color: white;
-  text-shadow: 4px 4px 4px black;
+  color: black;
 }
 
-.Title a:hover {
-  color: black;
-  text-shadow: none;
+.Title:hover .Name {
+  color: gray;
 }
 
 .Pages {
@@ -23,19 +21,24 @@
 }
 
 .Pages a {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
   font-size: 50px;
-  font-weight: bold;
   text-align: center;
   text-decoration: none;
-  color: white;
-  text-shadow: 3px 3px 3px black;
+  color: black;
 }
 
-.Navigation a:hover {
-  color: black;
-  text-shadow: none;
+.Pages img {
+  margin-right: 15px;
+  margin-bottom: 7px;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+}
+
+.Pages a:hover img {
+  box-shadow: 3px 3px 3px gray;
 }
 
 @media (max-width: 375px) {

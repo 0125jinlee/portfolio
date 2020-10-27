@@ -1,3 +1,8 @@
+.Home {
+  width: 700px;
+  height: auto;
+}
+
 .JinPicture {
   text-align: center;
 }
@@ -8,7 +13,7 @@
 }
 
 .SocialMedia {
-  margin-top: 10px;
+  margin-top: 15px;
   text-align: center;
 }
 
@@ -20,7 +25,6 @@
 .SocialMedia img {
   height: 70px;
   width: 70px;
-  box-shadow: 4px 4px 4px black;
 }
 
 .SocialMedia img:hover {
