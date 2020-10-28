@@ -12,7 +12,7 @@ const Navigation = () => {
           <NavLink to={"/"} exact={true}>HELLO, I AM <span className="Name">JIN WON LEE.</span></NavLink>
         </MediaQuery>
         <MediaQuery query="(max-device-width: 375px)">
-          <NavLink to={"/"} exact={true}>HELLO,<br/>I AM<br />JIN WON LEE.</NavLink>
+          <NavLink to={"/"} exact={true}>HELLO,<br/>I AM<br /><span className="Name">JIN WON LEE.</span></NavLink>
         </MediaQuery>
       </div>
       <div className="Pages">

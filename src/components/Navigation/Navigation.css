@@ -12,6 +12,7 @@
 
 .Title:hover .Name {
   color: gray;
+  font-weight: 450;
 }
 
 .Pages {
