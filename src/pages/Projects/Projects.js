@@ -1,9 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Navigation from "../../components/Navigation/Navigation";
 import "./Projects.css";
 
 const Projects = () => {
+  
+  const [imageCounter, setImageCounter] = useState(1);
+
+  const plusSlides = event => {
+    event.preventDefault();
+    if ( imageCounter < 4) {
+      setImageCounter(imageCounter + 1);
+      return imageCounter;
+    } else {
+      setImageCounter(1);
+      return imageCounter;
+    }
+  }
+
+  const minusSlides = () => {
+    if ( imageCounter > 1) {
+      setImageCounter(imageCounter - 1);
+      return imageCounter;
+    } else {
+      setImageCounter(4)
+      return imageCounter;
+    }
+  }
+
   return (
     <div className="Projects">
       <Navigation />
@@ -16,10 +40,10 @@ const Projects = () => {
         <li>Deployed via Google Firebase platform</li>
         <li>Responsive web design via Flex-box techniques</li>
         <li>User authenticate system via Google Firebase</li>
+        <input className="prev" type="image" src="/previous.png" alt="previous" onClick={minusSlides} />
+        <input className="next" type="image" src="/next.png" alt="next" onClick={plusSlides} />
         <div className="BetterWorldSlides">
-        <input className="prev" type="image" src="/previous.png" alt="previous" onclick="plusSlides(-1)" />
-        <input className="next" type="image" src="/next.png" alt="next" onclick="plusSlides(1)" />          
-        <img src="/betterworld1.png" alt="betterworld1" />
+          <img src={"/betterworld" + imageCounter + ".png"} alt="betterworld" />
         </div>
       </div>
     </div>

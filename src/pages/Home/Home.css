@@ -8,8 +8,8 @@
 }
 
 .JinPicture img {
-  width: 350px;
-  height: 435px;
+  width: 360px;
+  height: 440px;
 }
 
 .SocialMedia {
@@ -28,12 +28,15 @@
 }
 
 .SocialMedia img:hover {
-  box-shadow: 4px 4px 4px gray;
+  background-color: gray;
 }
 
 @media (max-width: 375px) {
+  .Home {
+    width: 100%;
+  }
+
   .SocialMedia {
-    margin-top: 10px;
-    text-align: center;
+    margin-top: 20px;
   }
 }

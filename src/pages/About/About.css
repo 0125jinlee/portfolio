@@ -4,13 +4,15 @@
 }
 
 .Story {
-  height: 500px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 545px;
   font-size: 18px;
   overflow-y: scroll;
 }
 
 @media (max-width: 375px) {
   .About {
-    width: 350px;
+    width: 100%;
   }
 }
