@@ -28,6 +28,8 @@
 }
 
 .SocialMedia img:hover {
+  height: 74px;
+  width: 74px;
   background-color: gray;
 }
 

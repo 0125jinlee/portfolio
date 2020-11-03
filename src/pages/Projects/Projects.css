@@ -23,6 +23,10 @@
   height: 10px;
 }
 
+.BetterWorld a:hover {
+  font-weight: 450;
+}
+
 .BetterWorld a:hover img {
   background-color: gray;
 }

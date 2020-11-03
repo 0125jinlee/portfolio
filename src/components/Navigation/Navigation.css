@@ -10,6 +10,10 @@
   color: black;
 }
 
+.Title:hover {
+  font-weight: 450;
+}
+
 .Title:hover .Name {
   color: gray;
   font-weight: 450;
@@ -36,6 +40,10 @@
   width: 20px;
   height: 20px;
   align-items: center;
+}
+
+.Pages a:hover {
+  font-weight: 450;
 }
 
 .Pages a:hover img {
